@@ -3,9 +3,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 
-class EntryPoint
+class IdSelector
 {
-    static void Main()
+    public static void DoExample()
     {
         string url = "http://testing.todorvachev.com/selectors/id/";
         string IDSelector = "testImage";

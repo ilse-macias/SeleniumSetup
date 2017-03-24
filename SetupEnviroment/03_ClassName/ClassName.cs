@@ -3,10 +3,9 @@ using OpenQA.Selenium.Chrome;
 using System;
 using System.Threading;
 
-class EntryPoint
+class ClassName
 {
-
-    static void Main()
+    public static void DoExample()
     {
         string url = "http://testing.todorvachev.com/selectors/class-name/";
         string className = "testClass";

@@ -4,9 +4,9 @@ using OpenQA.Selenium.Chrome;
 using System.Threading;
 using System;
 
-class EntryPoint
+class NameSelector
 {
-    static void Main()
+    public static void DoExample()
     {
 
         /*Always to initialize.*/

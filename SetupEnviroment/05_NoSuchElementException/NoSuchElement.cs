@@ -3,7 +3,7 @@ using OpenQA.Selenium.Chrome;
 using System.Threading;
 using System;
 
-class EntryPoint
+class NoSuchElement
 {
 
     /************************************/
@@ -12,7 +12,7 @@ class EntryPoint
     /* - The element doesn't exist.     */
     /************************************/
 
-    static void Main()
+    public static void DoExample()
     {
         string url = "http://testing.todvachev.com/selectors/css-path/";
         string cssPath = "#post-108 > div > fig img"; //break a selector.
@@ -23,7 +23,7 @@ class EntryPoint
 
         /** Copy selector: Copy CSS path **/
         /** Copy xpath: It's the same that "Copy CSS" but is uglier **/
-
+        //test
         IWebElement cssPathElement; //The driver find an initiation element outside TRY-CATCH block; it needs to move the initiation element inside into TRY-CATCH block
         IWebElement xPathElement = driver.FindElement(By.XPath(xPath)); //IE has a poor support for xPath
 

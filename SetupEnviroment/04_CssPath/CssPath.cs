@@ -3,9 +3,9 @@ using OpenQA.Selenium.Chrome;
 using System.Threading;
 using System;
 
-class EntryPoint
+class CssPath
 {
-    static void Main()
+    public static void DoExample()
     {
         string url = "http://testing.todvachev.com/selectors/css-path/";
         string cssPath = "#post-108 > div > figure > img";
