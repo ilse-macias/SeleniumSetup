@@ -15,6 +15,8 @@ namespace SetupEnviroment
             //IdSelector.Main();
 
             //NoSuchElement.DoExample();
+
+            Console.ReadKey();
         }
     }
 }
