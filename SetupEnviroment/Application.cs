@@ -10,7 +10,7 @@ namespace SetupEnviroment
     {
         public static void Main(string[] args)
         {
-            //NameSelector.DoExample();
+            NameSelector.DoExample();
 
             //IdSelector.Main();
 
